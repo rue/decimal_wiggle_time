@@ -1,0 +1,98 @@
+/*
+ *  Styleses
+ *
+ *  Copyright is mine, ALL MINE!!! AHAHAHAHAAAAA!
+ */
+
+
+body {
+  background:     #fff;
+}
+
+
+/* Front */
+
+#time_display {
+  text-align:       center;
+  vertical-align:   middle;
+}
+
+  #time {
+    display:        block;
+
+    margin:         0.5em 0 0 0;
+    padding:        0.5em;
+
+    font-size:      1.4em;
+
+    color:          #555;
+  }
+
+    #time span.dies {
+    }
+
+    #time span.cens {
+    }
+
+    #time span.comma {
+    }
+
+    #time span.mins {
+      font-size:    0.9em;
+    }
+
+    #time span.mils {
+      font-size:    0.9em;
+    }
+
+    #time span.secs {
+      font-size:    0.8em;
+      color:        #aaa;
+    }
+
+    #time span.delimiter {
+      margin:       0 0.5em 0 0.5em;
+
+      font-size     0.8em;
+
+      color:        #ddd;
+    }
+
+  #timezone {
+    float:          right;
+
+    border-left:    1px solid #888;
+    padding-left:   0.5em;
+
+    font-size:      1.5em;
+
+    color:          #888;
+  }
+
+  #descriptions {
+    display:        block;
+
+    margin:         0 0 0 0.5em;
+
+    font-size:      0.9em;
+    font-style:     italic;
+
+    color:          #bbb;
+  }
+
+    #descriptions span.delimiter {
+    margin:         0 0.2em 0 0.2em;
+
+    font-size:      0.8em;
+    font-style:     normal;
+
+    color:          #bb0;
+    }
+
+
+/* Back */
+
+#widget_back {
+  display:    none;
+}
+

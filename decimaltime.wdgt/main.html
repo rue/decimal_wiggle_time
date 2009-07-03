@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+                      "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xml:lang="en">
+
+
+<!-- head -->
+
+  <head>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+
+    <script type="text/javascript" charset="utf-8" src="main.js"></script>
+
+    <title>Decimal Time Yay!h</title>
+
+  </head>
+
+
+<!-- body -->
+
+  <body onload="loading_body();">
+
+    <!-- Front -->
+
+    <div id="widget_front">
+
+      <!-- Time display itself -->
+
+      <div id="time_display">
+
+        <span id="time">
+          <!-- Filled in by the magic of JavaScript! -->
+        </span>
+
+        <!-- Totally abusing abbr -->
+        <span id="descriptions">
+          <abbr title="Tenth of a day is about 2,5 old hours (144m)">
+            dies
+          </abbr>
+          <span class="delimiter">:</span>
+          <abbr title="One hundreth is the standard notation; about an old quarter hour (14,4m). It is very easy to make mnemonics for, say, 0, 25, 50 and 75 cens (or offsets thereof.)">
+            cens
+          </abbr>
+          <span class="delimiter">:</span>
+          <abbr title="One thousandth is about an old minute and a half (1,44m)">
+            mins
+          </abbr>
+          <span class="delimiter">:</span>
+          <abbr title="One ten-thousandth is a bit less than 10 old seconds (8,64s)">
+            mils
+          </abbr>
+          <span class="delimiter">:</span>
+          <abbr title="Decimal seconds are just shortern than old seconds (0,864s)">
+            secs
+          </abbr>
+        </span>
+
+      </div>
+
+    </div>
+
+
+  <!-- Back -->
+    <div id="widget_back">
+      <!-- Empty for now. Remember to set to display. -->
+    </div>
+
+  </body>
+</html>
+

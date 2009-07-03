@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>decimaltime</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.ruerue.widget.DecimalTime</string>
+	<key>CFBundleName</key>
+	<string>decimaltime</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.9</string>
+	<key>CFBundleVersion</key>
+	<string>0.9</string>
+	<key>CloseBoxInsetX</key>
+	<integer>15</integer>
+	<key>CloseBoxInsetY</key>
+	<integer>15</integer>
+	<key>Height</key>
+	<integer>100</integer>
+	<key>MainHTML</key>
+	<string>main.html</string>
+	<key>Width</key>
+	<integer>500</integer>
+</dict>
+</plist>
